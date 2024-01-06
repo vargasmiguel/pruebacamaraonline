@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.app_logo import add_logo
 from streamlit_qrcode_scanner import qrcode_scanner 
 from time import sleep
 
@@ -7,10 +6,6 @@ st.set_page_config(layout="wide",
                    page_title="Bodega", 
                    page_icon="🏭")
 
-add_logo("logo.png",height=100)
-
-
-st.image("logo-mexicargo.png", width=200)
 st.markdown("### Pendiente por proponer") 
 
 def resetli():
