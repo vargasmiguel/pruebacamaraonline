@@ -27,8 +27,6 @@ if qr_code not in st.session_state["scanned"] and qr_code!=None:
 
 st.write(st.session_state["scanned"])
 
-st.camera_input("Hola")
-
 
 
 hide_st_style = """
